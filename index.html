@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>國立陽明交通大學學生會</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+
+    .main-content {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .container {
+      background: white;
+      padding: 40px 50px;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      width: 100%;
+      max-width: 500px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .logo-container {
+      margin-bottom: 20px;
+    }
+
+    .logo-container img {
+      max-width: 90px;
+      height: auto;
+    }
+
+    h1 {
+      color: #1c1e21;
+      font-size: 28px;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #606770;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      width: 100%;
+      padding: 14px;
+      background: linear-gradient(90deg, #007bff, #0056b3);
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-sizing: border-box;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+    }
+
+    .social-links {
+      margin-top: 35px;
+      border-top: 1px solid #e9ecef;
+      padding-top: 25px;
+    }
+
+    .social-links a {
+      display: inline-block;
+      transition: transform 0.2s;
+    }
+    
+    .social-links a:hover {
+      transform: scale(1.1);
+    }
+
+    .social-links svg {
+      width: 32px;
+      height: 32px;
+      fill: #3b5998; /* Facebook Blue */
+    }
+    
+    .footer {
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 12px;
+      color: #8a8d91;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="main-content">
+    <div class="container">
+      <div class="logo-container">
+        <img src="https://raw.githubusercontent.com/thc1006/thc1006.github.io/refs/heads/main/images/%E9%99%BD%E6%98%8E%E4%BA%A4%E5%A4%A7%E5%AD%B8%E7%94%9F%E6%9C%83logo.png" alt="陽明交大學生會 Logo">
+      </div>
+      <h1>您似乎來到了首頁</h1>
+      <p>這裡是國立陽明交通大學學生會的組織網域。如果您要尋找學生會長選舉投票系統，請點擊下方按鈕前往。</p>
+      
+      <a href="https://nycusa.github.io/nycu-election-2025/login.html" class="button">
+        前往選舉投票系統
+      </a>
+
+      <div class="social-links">
+        <a href="https://www.facebook.com/NYCUStudentAssociation" target="_blank" rel="noopener noreferrer" title="前往學生會 Facebook">
+          <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0h-21.35C.589 0 0 .589 0 1.325v21.351C0 23.411.589 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.736 0 1.325-.589 1.325-1.325V1.325C24 .589 23.411 0 22.675 0z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    國立陽明交通大學學生會
+  </div>
+</body>
+</html>
